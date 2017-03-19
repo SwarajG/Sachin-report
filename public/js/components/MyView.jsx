@@ -8,6 +8,8 @@ import {
   Modal,
 } from 'semantic-ui-react';
 
+// Styles for the page
+import '../../css/style.css';
 
 export default class MyView extends React.Component {
 
@@ -44,11 +46,16 @@ export default class MyView extends React.Component {
             >
               <Header icon='comment' content='My Views on Sachin&#39;s report' />
               <Modal.Content>
-                <h3>This website uses cookies to ensure the best user experience.</h3>
+                <h3>The points which shows that Sachin was a great batsman.</h3>
+                <ul className="listOfPoints">
+                  <li>He has consistant average run against each year (Almost above 40 runs per year).</li>
+                  <li>He has very good average against each team through out his career (Almost above 40 runs).</li>
+                  <li>He has scored centuary against all the teams and had made heighst against most powserful team Australia.</li>
+                </ul>
               </Modal.Content>
               <Modal.Actions>
                 <Button color='green' onClick={() => this.handleClose()} inverted>
-                  <Icon name='checkmark' /> Got it
+                  <Icon name='checkmark' /> Okay
                 </Button>
               </Modal.Actions>
             </Modal>

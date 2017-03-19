@@ -15,7 +15,7 @@ import chartData from './chartFilter';
 import MyView from './components/MyView';
 
 // Styles for the page
-import './style.css';
+import '../css/style.css';
 
 class App extends React.Component {
 

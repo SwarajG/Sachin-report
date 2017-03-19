@@ -26730,6 +26730,8 @@ var _reactDom = __webpack_require__(137);
 
 var _semanticUiReact = __webpack_require__(138);
 
+__webpack_require__(427);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -26737,6 +26739,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+// Styles for the page
+
 
 var MyView = function (_React$Component) {
   _inherits(MyView, _React$Component);
@@ -26802,7 +26807,26 @@ var MyView = function (_React$Component) {
                 _react2.default.createElement(
                   'h3',
                   null,
-                  'This website uses cookies to ensure the best user experience.'
+                  'The points which shows that Sachin was a great batsman.'
+                ),
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'listOfPoints' },
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'He has consistant average run against each year (Almost above 40 runs per year).'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'He has very good average against each team through out his career (Almost above 40 runs).'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'He has scored centuary against all the teams and had made heighst against most powserful team Australia.'
+                  )
                 )
               ),
               _react2.default.createElement(
@@ -26814,7 +26838,7 @@ var MyView = function (_React$Component) {
                       return _this2.handleClose();
                     }, inverted: true },
                   _react2.default.createElement(_semanticUiReact.Icon, { name: 'checkmark' }),
-                  ' Got it'
+                  ' Okay'
                 )
               )
             )
@@ -28021,7 +28045,7 @@ exports = module.exports = __webpack_require__(242)();
 
 
 // module
-exports.push([module.i, ".app__header {\n  margin-top: 40px !important;\n}\n", ""]);
+exports.push([module.i, ".app__header {\n  margin-top: 40px !important;\n}\n\n.listOfPoints {\n  font-size: 18px;\n}\n", ""]);
 
 // exports
 
