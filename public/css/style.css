@@ -1,3 +1,7 @@
 .app__header {
   margin-top: 40px !important;
 }
+
+.listOfPoints {
+  font-size: 18px;
+}

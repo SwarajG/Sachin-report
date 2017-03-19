@@ -1,4 +1,5 @@
 // Basic structure for running the app
+
 'use strict';
 import express from 'express';
 import routes from './backend/routes';
