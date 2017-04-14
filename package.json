@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2",
+    "start": "node index.js",
     "lint": "eslint public/**/*.js*"
   },
   "author": "",
