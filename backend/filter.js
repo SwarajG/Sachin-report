@@ -1,8 +1,9 @@
 // Npm modules
-import _ from 'lodash';
+'use strict';
+const _ = require('lodash');
 
 // Util
-import Utils from './utils';
+const Utils = require('./utils');
 
 const filter = {
   groupByTeam: playerInfo =>

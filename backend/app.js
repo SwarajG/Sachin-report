@@ -1,6 +1,7 @@
-import csv from 'csvtojson';
-import Utils from './utils';
-import Filter from './filter';
+'use strict';
+const csv = require('csvtojson');
+const Utils = require('./utils');
+const Filter = require('./filter');
 
 const csvFilePath = './sachin.csv';
 const getPlayerInfo = (startYear, endYear, callback) => {

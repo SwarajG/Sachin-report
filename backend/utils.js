@@ -1,5 +1,6 @@
-import moment from 'moment';
-import _ from 'lodash';
+'use strict';
+const moment = require('moment');
+const _ = require('lodash');
 
 const utils = {
   getYearFromString: date => moment(date, 'DD MMM YYYY').year(),

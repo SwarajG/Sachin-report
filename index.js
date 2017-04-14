@@ -1,8 +1,8 @@
 // Basic structure for running the app
 
 'use strict';
-import express from 'express';
-import routes from './backend/routes';
+const express = require('express');
+const routes =  require('./backend/routes');
 
 let app = express();
 
