@@ -9,7 +9,7 @@
     "start": "node index.js",
     "lint": "eslint public/**/*.js*"
   },
-  "author": "",
+  "author": "Swaraj Gandhi",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
