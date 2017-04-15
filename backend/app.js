@@ -1,3 +1,4 @@
+/* @flow */
 'use strict';
 const csv = require('csvtojson');
 const Utils = require('./utils');

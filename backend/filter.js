@@ -1,3 +1,4 @@
+// @flow
 // Npm modules
 'use strict';
 const _ = require('lodash');
